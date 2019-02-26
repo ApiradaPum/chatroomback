@@ -4,7 +4,7 @@ const app = express()
 let http = require('http')
 let socketIO = require('socket.io')
 
-let port = 5000
+let port =  process.env.PORT || 5000
 let users = [];
 
 app.use(bodyParser.json())
