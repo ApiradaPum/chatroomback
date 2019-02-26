@@ -1,0 +1,30 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "chat app by using socket.io",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "npx nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MMiTnN/chatapp.git"
+  },
+  "author": "Apirada Pumpan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MMiTnN/chatapp/issues"
+  },
+  "homepage": "https://github.com/MMiTnN/chatapp#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "socket.io": "^2.2.0"
+  }
+}
