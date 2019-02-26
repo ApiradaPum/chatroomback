@@ -4,7 +4,7 @@
   "description": "chat app by using socket.io",
   "main": "src/app.js",
   "scripts": {
-    "start": "node src/app.js",
+    "start": "node ./src/app.js",
     "startdev": "npx nodemon src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
