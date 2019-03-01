@@ -19,6 +19,7 @@ io.on('connection', client => {
     console.log('user connected')  
     client.on('disconnect', () => {
         if(!client.username) return;
+        io.sockets.emit('user logout', client.username);
         users.splice(users.indexOf(client.username),1);
         updateUsernames();
         console.log('user disconnected')
