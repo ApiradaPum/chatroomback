@@ -26,7 +26,7 @@ io.on('connection', client => {
     })
 
     client.on('sent-message', (data) => {
-        io.sockets.emit('new-message', {message:data.input, user: data.username})
+        io.sockets.emit('new-message', {message:data.message, user: data.username})
       //io.sockets.emit('new-message', message)
     })
 
